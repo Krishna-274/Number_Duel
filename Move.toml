@@ -1,0 +1,22 @@
+[package]
+name = "NumberDuel_Game"
+version = "1.0.0"
+authors = []
+
+[addresses]
+duel="5d2776ce32df5af9e40dcf4dec022a02c4a8053f54b5ed7ba1dfc34fdc6ff16b"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+
+[dependencies.AptosStdlib]
+git = "https://github.com/aptos-labs/aptos-core.git"
+subdir = "aptos-move/framework/aptos-stdlib"
+rev = "mainnet"
+
+[dev-dependencies]
