@@ -1,5 +1,3 @@
-
-
 a, input, textarea {
   display: block;
 }
@@ -10,4 +8,16 @@ textarea {
   outline: 0;
   padding: 0;
   width: 100%;
+  
+}
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}
+.battle-outcome {
+  margin-top: 20px;
+}
+.player-stats {
+  text-align: center;
 }
