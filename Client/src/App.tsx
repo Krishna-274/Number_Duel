@@ -29,7 +29,8 @@ function App() {
         } catch (e) {
             console.log(e);
         }
-    }useEffect(() => {
+    }
+    useEffect(() => {
       init();
   }, []);
 
